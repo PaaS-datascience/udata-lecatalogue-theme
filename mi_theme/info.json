@@ -1,0 +1,11 @@
+{
+    "application": "udata",
+    "identifier": "mi-theme",
+    "name": "MI theme",
+    "author": "Fabien ANTOINE",
+    "description": "Udata theme for Ministère de l'Intérieur",
+    "website": "http://catalog.datalab.mi",
+    "license": "AGPL",
+    "version": "0.1.0",
+    "doctype": "html5"
+}
