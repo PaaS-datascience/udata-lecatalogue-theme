@@ -86,7 +86,7 @@ long_description = '\n'.join((
 setup(
     name='mi-theme',
     version='0.1.0',
-    description='Udata theme for Ministère de l'Intérieur',
+    description='Udata theme for Ministère de l´Intérieur',
     long_description=long_description,
     url='http://catalog.datalab.mi',
     author='Fabien ANTOINE',
