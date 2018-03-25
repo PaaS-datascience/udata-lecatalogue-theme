@@ -1,19 +1,19 @@
 # MI theme
 
-Udata theme for Ministère de l'Intérieur
+Udata theme for lecatalogue (part of latelier) 
 
 ## Usage
 
 Install the theme package in you udata environement:
 
 ```bash
-pip install mi-theme
+pip install lecatalogue
 ```
 
 Then, define the installed theme as current in you `udata.cfg`:
 
 ```python
-THEME = 'mi-theme'
+THEME = 'lecatalogue'
 ```
 
 ## Development

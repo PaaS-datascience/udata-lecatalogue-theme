@@ -1,0 +1,12 @@
+{
+    "application": "udata",
+    "identifier": "lecatalogue",
+    "name": "lecatalogue",
+    "author": "Fabien ANTOINE",
+    "description": "Udata theme for lecatalogue, part of latelier",
+    "website": "https://github.com/SaaS-datascience/udata-lecatalogue-theme",
+    "license": "AGPL",
+    "version": "0.1.0",
+    "variants": ["deuil"],
+    "doctype": "html5"
+}

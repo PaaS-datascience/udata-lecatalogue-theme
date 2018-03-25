@@ -1,5 +1,5 @@
 include LICENSE MANIFEST.in README.md CHANGELOG.md
 
-recursive-include mi-theme *
+recursive-include lecatalogue *
 
 global-exclude *~ *.egg *.pyc

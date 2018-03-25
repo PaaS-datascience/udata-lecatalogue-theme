@@ -32,7 +32,7 @@ services:
       - elasticsearch:elasticsearch
     volumes:
       - ./udata.cfg:/udata/udata.cfg
-      - .:/src/mi-theme
+      - .:/src/lecatalogue
     ports:
       - "7000:7000"
 
