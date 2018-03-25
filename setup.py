@@ -91,12 +91,12 @@ setup(
     url='http://catalog.datalab.mi',
     author='Fabien ANTOINE',
     author_email='fabien.antoine@m4x.org',
-    packages=['mi_theme'],
+    packages=['lecatalogue'],
     include_package_data=True,
     install_requires=[],
     entry_points={
         'udata.themes': [
-            'mi-theme = mi_theme'
+            'lecatalogue = lecatalogue'
         ]
     },
     license='AGPL',
