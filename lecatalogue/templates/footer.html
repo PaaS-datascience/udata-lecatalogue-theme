@@ -1,5 +1,5 @@
 {% cache cache_duration, 'footer', g.lang_code|default(config.DEFAULT_LANGUAGE)|string,
-    '-'.join((package_version('udata'), package_version('udata-lecatalogue-theme')))
+    '-'.join((package_version('udata'), package_version('udata-gouvfr')))
 %}
 <section class="footer">
     <div class="container">
@@ -86,7 +86,7 @@
                 <a href="https://pypi.python.org/pypi/udata/{{ package_version('udata') }}/" title="{{ _('Deployed version') }}">{{ package_version('udata') }}</a>
                 <br/>
                 <a href="https://github.com/SaaS-datascience/udata-lecatalogue-theme/" title="{{ _('Data.gouv.fr extension') }}">udata-gouvfr</a>
-                <a href="https://pypi.python.org/pypi/udata-gouvfr/{{ package_version('udata-lecatalogue-theme') }}/" title="{{ _('Deployed version') }}">{{ package_version('udata-gouvfr') }}</a>
+                <a href="https://pypi.python.org/pypi/udata-gouvfr/{{ package_version('udata-gouvfr') }}/" title="{{ _('Deployed version') }}">{{ package_version('udata-gouvfr') }}</a>
             </section>
 
             <p class="bottom-right"><a href="#">{{ _('Back to top') }}</a></p>

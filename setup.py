@@ -84,9 +84,9 @@ long_description = '\n'.join((
 
 
 setup(
-    name='mi-theme',
+    name='lecatalogue',
     version='0.1.0',
-    description='Udata theme for Ministère de l´Intérieur',
+    description='Udata theme for lecatalogue, part of latelier',
     long_description=long_description,
     url='http://catalog.datalab.mi',
     author='Fabien ANTOINE',
@@ -101,7 +101,7 @@ setup(
     },
     license='AGPL',
     zip_safe=False,
-    keywords='udata, theme, MI theme',
+    keywords='udata, theme, catalogue',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python',
