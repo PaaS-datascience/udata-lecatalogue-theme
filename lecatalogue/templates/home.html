@@ -39,32 +39,17 @@
             </div>
             {% endif %}
 
-            {# Last reuses #}
-            <div class="col-xs-12">
-                <h3>
-                    <a href="{{ url_for('reuses.list', sort='-created') }}"
-                        title="{{ _('Latest reuses') }}">
-                        {{ _('Latest reuses') }}
-                    </a>
-                </h3>
-                <div class="row">
-                    <ul class="card-list card-list--columned">
-                        {% for reuse in recent_reuses[:3] %}
-                        {% set features = ['preview'] %}
-                        <li class="col-sm-4 col-xs-12">
-                            {% include theme('reuse/card.html') %}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            {# End last reuses #}
-
         </div>
         {# end first row #}
     </div>
 
 </section>
+
+{# Datasets section #}
+{% set nb_datasets = current_site.settings.home_datasets|length %}
+{% set dataset_tabs = (
+    ('editorial-datasets', _('Featured datasets'), current_site.settings.home_datasets, {}),
+) %}
 
 {% if last_post %}
 {% set post = last_post %}
@@ -84,7 +69,7 @@
             </div>
 
             <div class="body col-sm-8">
-                <label>{{ _('News in data') }}</label>
+                <label>{{ _('L´actualité') }}</label>
                 <h3 class="title">
                     <a href="{{ url_for('posts.show', post=post) }}"
                         title="{{ post.name }}">
@@ -98,13 +83,6 @@
 </section>
 {% endif %}
 
-
-{# Datasets section #}
-{% set nb_datasets = current_site.settings.home_datasets|length %}
-{% set dataset_tabs = (
-    ('editorial-datasets', _('Featured datasets'), current_site.settings.home_datasets, {}),
-    ('recent-datasets', _('Latest datasets'), recent_datasets[:nb_datasets], {'sort': '-created'}),
-) %}
 
 <section class="default spaced">
       <div class="container">

@@ -118,7 +118,7 @@ msgid "Toggle navigation"
 msgstr "Navegador"
 
 #: templates/header.html:18
-msgid "Open platform for French public data"
+msgid "Open platform for data valorization"
 msgstr ""
 
 #: templates/header.html:74
